@@ -1,12 +1,5 @@
 import React, { Component, Fragment } from 'react'
-
-class LinkComponenent extends Component {
-    render() {
-        return (
-            <a href={this.props.apiUrl}>{this.props.urlName}</a>
-        );
-    }
-}
+import LinkComponenent from './LinkComponent'
 
 class SidebarComponent extends Component {
     render() {
@@ -15,7 +8,7 @@ class SidebarComponent extends Component {
         let linkContainer = [];
         if (this.props.urlList) {
             this.props.urlList.forEach((value,key) => {
-                linkContainer.push(<li key={key}><LinkComponenent apiUrl= {value.apiUrl} urlName= {value.urlName}/></li>)
+                linkContainer.push(<li key={key}><LinkComponenent apiUrl= {value.apiUrl} urlName= {value.urlName} color= {value.color}/></li>)
             });
         }
         return (

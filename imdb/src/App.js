@@ -9,13 +9,16 @@ class App extends Component {
     let urlList = [
       {
         urlName: "Madhavi",
-        apiUrl: "https://www.github.com/"
+        apiUrl: "https://www.github.com/",
+        color: "red",
       },{
         urlName: "Anit",
-        apiUrl: "https://anit.github.com/"
+        apiUrl: "https://anit.github.com/",
+        color: "green",
       },{
         urlName: "Apurva",
-        apiUrl: "https://www.github.com/"
+        apiUrl: "https://www.github.com/",
+        color: "blue",
       },
     ];
     return (
