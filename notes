@@ -1,0 +1,10 @@
+Not invented here syndrome - Do not rewrite if its already made.
+How to select library - stars, how soon its updated, tickets.
+conact and uglify 
+codemod - To update existing code to support new react updates : https://github.com/facebook/codemod
+jsx - javascript expression
+class based components and functional components
+components write in pascal case.
+Components name should be same as file name.
+In single file have only one exportable components
+Multiple components in class only one exportable.

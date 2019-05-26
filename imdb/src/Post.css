@@ -1,0 +1,5 @@
+.postContainer{
+    float: left;
+    display: inline;
+    border: 1px solid red
+}
