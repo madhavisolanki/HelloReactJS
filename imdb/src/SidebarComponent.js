@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import LinkComponenent from './LinkComponent'
+import NameForm from './NameForm'
 
 class SidebarComponent extends Component {
     render() {
@@ -16,6 +17,7 @@ class SidebarComponent extends Component {
                <ul>
                    {linkContainer}
                </ul>
+               <NameForm></NameForm>
             </Fragment>
         );
     }
